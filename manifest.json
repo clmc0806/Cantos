@@ -1,21 +1,26 @@
 {
   "name": "Cantos Litúrgicos",
   "short_name": "Cantos",
-  "start_url": ".",
+  "description": "App local de cantos litúrgicos para rezar y cantar sin conexión.",
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f8f8f8",
+  "background_color": "#ffffff",
   "theme_color": "#3367D6",
-  "description": "Lista de cantos litúrgicos para usar sin conexión",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "es",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512.png",
+      "src": "icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ]
 }
+
