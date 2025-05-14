@@ -1,13 +1,13 @@
 {
   "name": "Cantos Litúrgicos",
   "short_name": "Cantos",
-  "description": "App local de cantos litúrgicos para rezar y cantar sin conexión.",
+  "id": "/libro/",
   "start_url": "index.html",
-  "scope": "./",
+  "scope": "/libro/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#3367D6",
-  "orientation": "portrait",
   "dir": "ltr",
   "lang": "es",
   "icons": [
@@ -21,6 +21,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "categories": ["music", "education", "religion"],
+  "prefer_related_applications": false
 }
-
