@@ -1,9 +1,9 @@
 {
   "name": "Cantos Litúrgicos",
   "short_name": "Cantos",
-  "id": "/libro/",
+  "id": "/Cantos/",
   "start_url": "index.html",
-  "scope": "/libro/",
+  "scope": "/Cantos/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
