@@ -1,6 +1,7 @@
 {
   "name": "Cantos Litúrgicos",
   "short_name": "Cantos",
+  "description": "Aplicación local para guardar, buscar y leer cantos litúrgicos sin conexión.",
   "id": "/Cantos/",
   "start_url": "index.html",
   "scope": "/Cantos/",
@@ -26,5 +27,16 @@
     "client_mode": "focus-existing"
   },
   "categories": ["music", "education", "religion"],
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "label": "Lista de cantos"
+    }
+  ],
+  "iarc_rating_id": "pending",
+  "scope_extensions": [],
+  "related_applications": []
 }
